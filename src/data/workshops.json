@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "title": "Social Media Strategy Workshop",
+    "date": "November 15, 2025",
+    "time": "2:00 PM EAT",
+    "duration": "3 hours",
+    "instructor": "Alex Chen",
+    "spots": 25,
+    "price": 185000,
+    "category": "digital-marketing"
+  },
+  {
+    "id": 2,
+    "title": "Personal Branding Intensive",
+    "date": "November 20, 2025",
+    "time": "10:00 AM EAT",
+    "duration": "4 hours",
+    "instructor": "Maya Patel",
+    "spots": 15,
+    "price": 300000,
+    "category": "professional-development"
+  }
+]

@@ -8,6 +8,7 @@ import Dashboard from './pages/Dashboard';
 import Portfolio from './pages/Portfolio';
 import Media from './pages/Media';
 import Masterclass from './pages/Masterclass';
+import MasterclassDetail from './pages/MasterclassDetail';
 import Projects from './pages/Projects';
 import Events from './pages/Events';
 import Profile from './pages/Profile';
@@ -17,6 +18,9 @@ import Content from './pages/Content';
 import Account from './pages/Account';
 import Connect from './pages/Connect';
 import CareerGuidance from './pages/CareerGuidance';
+import Classroom from './pages/Classroom';
+import Assessment from './pages/Assessment';
+import Certificate from './pages/Certificate';
 import { AuthProvider, useAuth } from './context/AuthContext';
 import './App.css';
 
@@ -43,6 +47,7 @@ function AppContent() {
           <Route path="/portfolio" element={user ? <Portfolio /> : <Navigate to="/" />} />
           <Route path="/media" element={<Media />} />
           <Route path="/masterclass" element={<Masterclass />} />
+          <Route path="/masterclass/:id" element={<MasterclassDetail />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/events" element={<Events />} />
           <Route path="/profile" element={user ? <Profile /> : <Navigate to="/" />} />
@@ -52,6 +57,9 @@ function AppContent() {
           <Route path="/account" element={user ? <Account /> : <Navigate to="/" />} />
           <Route path="/connect" element={user ? <Connect /> : <Navigate to="/" />} />
           <Route path="/career-guidance/:masterclassId" element={user ? <CareerGuidance /> : <Navigate to="/" />} />
+          <Route path="/classroom/:id" element={user ? <Classroom /> : <Navigate to="/signin" />} />
+          <Route path="/masterclass/:id/assessment" element={user ? <Assessment /> : <Navigate to="/signin" />} />
+          <Route path="/masterclass/:id/certificate" element={user ? <Certificate /> : <Navigate to="/signin" />} />
         </Routes>
       </Router>
     </div>
