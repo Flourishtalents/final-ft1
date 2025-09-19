@@ -1,0 +1,89 @@
+[
+  {
+    "id": 1,
+    "title": "Digital Marketing Mastery",
+    "instructor": "Sarah Johnson",
+    "instructor_title": "Lead Digital Strategist @ TechCorp",
+    "instructor_bio": "Sarah is a seasoned digital marketing expert with over 10 years of experience helping brands grow their online presence. She specializes in SEO, SEM, and content marketing.",
+    "category": "digital-marketing",
+    "duration": "8 weeks",
+    "lessons": 24,
+    "students": 1250,
+    "rating": 4.9,
+    "price": 750000,
+    "level": "Beginner to Advanced",
+    "thumbnail": "https://images.pexels.com/photos/6285080/pexels-photo-6285080.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "video_preview": "https://example.com/video_preview_1.mp4",
+    "description_short": "Master the art of digital marketing with hands-on projects and real-world case studies.",
+    "description_long": "This comprehensive course covers everything you need to know to become a digital marketing pro. From understanding the fundamentals of SEO and social media marketing to mastering analytics and campaign optimization, you'll gain the skills and confidence to drive real results.",
+    "features": ["Live Sessions", "Real-World Projects", "Professional Certification", "1-on-1 Mentorship"],
+    "isEnrolled": false,
+    "progress": 0,
+    "curriculum": [
+      {
+        "section": "1: Introduction to Digital Marketing",
+        "lessons": [
+          { "title": "Welcome to the Course", "duration": "5:30", "video_url": "https://example.com/lesson1.mp4" },
+          { "title": "The Digital Marketing Landscape", "duration": "12:45", "video_url": "https://example.com/lesson2.mp4" },
+          { "title": "Setting Your Goals", "duration": "8:15", "video_url": "https://example.com/lesson3.mp4" }
+        ]
+      },
+      {
+        "section": "2: SEO & Content Marketing",
+        "lessons": [
+          { "title": "Fundamentals of SEO", "duration": "15:00", "video_url": "https://example.com/lesson4.mp4" },
+          { "title": "Keyword Research", "duration": "18:30", "video_url": "https://example.com/lesson5.mp4" },
+          { "title": "Creating High-Quality Content", "duration": "22:00", "video_url": "https://example.com/lesson6.mp4" }
+        ]
+      }
+    ],
+    "assessment": {
+      "type": "Project",
+      "title": "Final Project: Create a Digital Marketing Campaign",
+      "description": "Apply everything you've learned to create a comprehensive digital marketing campaign for a fictional brand."
+    }
+  },
+  {
+    "id": 2,
+    "title": "Brand Ambassador Certification",
+    "instructor": "Emma Wilson",
+    "instructor_title": "Founder of BrandYou Agency",
+    "instructor_bio": "Emma has built a career on creating authentic connections between brands and influencers. She has worked with top-tier companies to develop and manage their brand ambassador programs.",
+    "category": "brand-ambassador-roles",
+    "duration": "6 weeks",
+    "lessons": 18,
+    "students": 890,
+    "rating": 4.8,
+    "price": 560000,
+    "level": "Intermediate",
+    "thumbnail": "https://images.pexels.com/photos/9558596/pexels-photo-9558596.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "video_preview": "https://example.com/video_preview_2.mp4",
+    "description_short": "Learn how to become a successful brand ambassador and build lasting partnerships.",
+    "description_long": "This certification program will equip you with the skills to represent brands effectively, negotiate contracts, and build a strong personal brand. You'll learn from industry experts and get a chance to connect with top agencies.",
+    "features": ["Industry Connections", "Portfolio Building", "Official Certification"],
+    "isEnrolled": true,
+    "progress": 65,
+    "curriculum": [
+      {
+        "section": "1: The World of Brand Ambassadorship",
+        "lessons": [
+          { "title": "What is a Brand Ambassador?", "duration": "7:00", "video_url": "https://example.com/lesson1.mp4" },
+          { "title": "Building Your Personal Brand", "duration": "14:20", "video_url": "https://example.com/lesson2.mp4" }
+        ]
+      },
+      {
+        "section": "2: Partnering with Brands",
+        "lessons": [
+          { "title": "Finding the Right Brands", "duration": "11:00", "video_url": "https://example.com/lesson3.mp4" },
+          { "title": "Crafting the Perfect Pitch", "duration": "16:45", "video_url": "https://example.com/lesson4.mp4" },
+          { "title": "Negotiating Contracts", "duration": "20:10", "video_url": "https://example.com/lesson5.mp4" }
+        ]
+      }
+    ],
+    "assessment": {
+      "type": "Quiz",
+      "title": "Final Exam",
+      "description": "Test your knowledge on the key concepts of brand ambassadorship."
+    }
+  }
+]
